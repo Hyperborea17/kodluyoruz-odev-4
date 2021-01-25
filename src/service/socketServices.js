@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 let socket;
 export const initSocket = () => {
-    socket = io("https://kodluyoruz-4-backend.herokuapp.com:58369", {
+    socket = io("https://kodluyoruz-4-backend.herokuapp.com", {
         transports: ["websocket"],
     });
 
